@@ -2,6 +2,21 @@
 
 Vi skal bygge neste generasjons plattform for bilverksteder, og vi trenger hjelp til å løfte den til et nytt nivå. Vi har laget en enkel verksted-applikasjon som demonstrerer grunnfunksjonaliteten, men den har flere kjente feil og mangler som trenger oppmerksomhet.
 
+## Valgte forbedringsområder
+
+- Integrasjon mot statens vegvesen
+- LLM-basert vedlikeholdsforslag
+- Oppgavelimit per bil
+- Statusknapper som oppdaterer DB
+- Gruppere oppgaver
+  -Tidsestimat per oppgave
+
+## Videre arbeid jeg hadde gjort
+
+- Global dashboard med oversikt på tvers av biler
+- Filtrering og sortering av oppgaver, i tillegg til delegasjon av oppgaver til mekanikere
+- Roller og brukere
+
 ## Kjente feil og mangler
 
 ### 1. Manglende integrasjon med Statens vegvesens kjøretøy-API
@@ -110,4 +125,3 @@ Applikasjonen er bygget på en moderne webstack som ligner det vi bruker i produ
   - `tasks` - Arbeidsoppgaver knyttet til biler (tittel, beskrivelse, status)
   - `task_suggestions` - AI-genererte forslag til vedlikeholdsoppgaver
 - **Tailwind CSS** for styling
-
